@@ -27,13 +27,6 @@ struct Actor
 
 	string Name;
 
-	Vector2D& GetActorPostion()
-	{
-		this->Position;
-
-
-	}
-
 };
 
 //			
@@ -49,6 +42,8 @@ struct Color
 	int	R = 1;
 	int G = 1;
 	int	B = 1;
+	
+	int A;
 
 };
 
@@ -58,12 +53,12 @@ int Main()
 
 	Actor* Player = new Actor;
 
-	(*Player).Position.X;
+	(*Player).Position.X = 10;
 	Player->Position.X = 10;			//	pointers로 지정된 변수 뒤에 .으로 값을 불러올 
 	Player->Position.Y = 10;			//	변수 명을 표시해준다.
 	Player->Shape = 'P';				//	(예시 (*Player).Position.X 는
 	Player->Name = "주";					//	Player 라는 pointers로 변수 Postition을 가리키고
-	Player->GetActorPostion().Y;		//	거기에 변수 X을 불러와라.)
+										//	거기에 변수 X을 불러와라.)
 										//	. 와 ->는 같은 용도
 										//	(예시 Player->Position.X )
 	

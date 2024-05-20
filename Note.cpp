@@ -8,16 +8,16 @@
 // 
 // 
 // 
-//	struct , pointers , 
-// 
-// 
-// 
-// 
-// 
-// 
-// 
-// 
-// 
-// 
-// 	
+//	struct
+//	pointers
+//	string
+//	DataType
+//
+//
+//
+//
+//
+//
+//
+//
 
